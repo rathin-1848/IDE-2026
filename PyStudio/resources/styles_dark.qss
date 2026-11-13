@@ -1,0 +1,210 @@
+/* PyStudio Dark Professional Theme */
+QMainWindow, QDialog {
+    background-color: #111827;
+    color: #E5E7EB;
+    font-family: "Segoe UI", "Inter", sans-serif;
+    font-size: 13px;
+}
+
+/* Top Toolbar */
+#TopToolbar {
+    background-color: #1F2937;
+    border-bottom: 1px solid #283548;
+    padding: 4px 10px;
+}
+
+#BrandLabel {
+    color: #F9FAFB;
+    font-size: 14px;
+    font-weight: 700;
+    padding-right: 12px;
+}
+
+QPushButton.ToolbarBtn {
+    background-color: transparent;
+    color: #E5E7EB;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    padding: 6px 11px;
+    font-weight: 500;
+}
+QPushButton.ToolbarBtn:hover {
+    background-color: #2B374B;
+    border-color: #374151;
+}
+QPushButton.ToolbarBtn:pressed {
+    background-color: #374151;
+}
+
+QPushButton#RunBtn {
+    background-color: #16A34A;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 6px;
+    padding: 6px 14px;
+    font-weight: 600;
+}
+QPushButton#RunBtn:hover {
+    background-color: #15803D;
+}
+QPushButton#RunBtn:disabled {
+    background-color: #1F3A2E;
+    color: #6B7280;
+}
+
+QPushButton#StopBtn {
+    background-color: #DC2626;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 6px;
+    padding: 6px 14px;
+    font-weight: 600;
+}
+QPushButton#StopBtn:hover {
+    background-color: #B91C1C;
+}
+QPushButton#StopBtn:disabled {
+    background-color: #2B242B;
+    color: #6B7280;
+}
+
+/* Activity Bar */
+#ActivityBar {
+    background-color: #0F172A;
+    border-right: 1px solid #1F2937;
+}
+
+QToolButton.ActivityBtn {
+    background-color: transparent;
+    border: none;
+    border-left: 2px solid transparent;
+    padding: 12px 0;
+    color: #9CA3AF;
+}
+QToolButton.ActivityBtn:hover {
+    color: #E5E7EB;
+    background-color: #17202C;
+}
+QToolButton.ActivityBtn:checked {
+    color: #FFFFFF;
+    border-left: 2px solid #3B82F6;
+    background-color: #17202C;
+}
+
+/* Sidebar */
+#SidebarPanel {
+    background-color: #17202C;
+    border-right: 1px solid #283548;
+}
+
+#SidebarHeader {
+    color: #9CA3AF;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    padding: 8px 12px;
+    border-bottom: 1px solid #222D3D;
+}
+
+QTreeWidget {
+    background-color: #17202C;
+    color: #E5E7EB;
+    border: none;
+    outline: none;
+    padding: 4px;
+}
+QTreeWidget::item {
+    padding: 5px 6px;
+    border-radius: 4px;
+}
+QTreeWidget::item:hover {
+    background-color: #1F2937;
+}
+QTreeWidget::item:selected {
+    background-color: #253650;
+    color: #FFFFFF;
+}
+
+/* Code Editor Tabs */
+QTabWidget::pane {
+    border: none;
+    background-color: #111827;
+}
+QTabBar {
+    background-color: #17202C;
+    border-bottom: 1px solid #283548;
+}
+QTabBar::tab {
+    background-color: #17202C;
+    color: #9CA3AF;
+    padding: 8px 14px;
+    border-right: 1px solid #222D3D;
+    border-top: 2px solid transparent;
+    min-width: 110px;
+}
+QTabBar::tab:hover {
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
+QTabBar::tab:selected {
+    background-color: #111827;
+    color: #FFFFFF;
+    border-top: 2px solid #3B82F6;
+}
+
+/* Find & Replace Bar */
+#FindReplaceBar {
+    background-color: #1F2937;
+    border-bottom: 1px solid #283548;
+    padding: 6px 10px;
+}
+
+QLineEdit {
+    background-color: #111827;
+    color: #E5E7EB;
+    border: 1px solid #374151;
+    border-radius: 5px;
+    padding: 5px 8px;
+}
+QLineEdit:focus {
+    border-color: #3B82F6;
+}
+
+/* Bottom Output Panel */
+#BottomPanel {
+    background-color: #111827;
+    border-top: 1px solid #283548;
+}
+
+QPlainTextEdit, QTextEdit, QListWidget {
+    background-color: #111827;
+    color: #E5E7EB;
+    border: none;
+    selection-background-color: #264F78;
+}
+
+QListWidget::item {
+    padding: 6px 10px;
+    border-bottom: 1px solid #1F2937;
+}
+QListWidget::item:hover {
+    background-color: #1F2937;
+}
+
+/* Status Bar */
+QStatusBar {
+    background-color: #1F2937;
+    color: #9CA3AF;
+    border-top: 1px solid #283548;
+    font-size: 12px;
+}
+QStatusBar::item {
+    border: none;
+}
+
+QSplitter::handle {
+    background-color: #222D3D;
+}
+QSplitter::handle:hover {
+    background-color: #3B82F6;
+}
