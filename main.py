@@ -1,4 +1,5 @@
 """
+Rathin
 PyCode Studio: a Python-only desktop code editor.
 Uses only Python standard-library modules.
 Run with: python pycode_studio.py
